@@ -2,7 +2,8 @@
 pred <- function(data){
     
     resultado <- data.frame(Clave = as.character(), 
-                            Actitud = as.double(), stringsAsFactors = FALSE)
+                            Actitud = as.double(), 
+                            stringsAsFactors = FALSE)
     
     for (i in 1:nrow(data)){
       
