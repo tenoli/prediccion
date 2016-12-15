@@ -1,7 +1,3 @@
-#Leemos los datos 
-data <- read_csv("*.csv", col_names = TRUE)
-
-
 #Creamos funcion de prediccion
 pred <- function(data){
     
@@ -127,4 +123,4 @@ pred <- function(data){
   
 }
 
-pred(data)
+
