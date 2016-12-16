@@ -2,7 +2,7 @@
 
 
 
-pred <- function(data){
+predapp <- function(data){
     
     resultado <- data.frame(Clave = as.character(), 
                             Actitud = as.double(), 
